@@ -40,10 +40,11 @@ source $VIM/_vimrc
 set guioptions-=T
 set fileencodings=utf-8,cp936
 set nobackup
+au BufRead,BufNewFile *.txt set filetype=tex
+let g:jsx_ext_required = 0
 set tabstop=4
 set expandtab
 set softtabstop=4
 set shiftwidth=4
-au BufRead,BufNewFile *.txt set filetype=tex
+set textwidth=0
 map \. f¡£
-let g:jsx_ext_required = 0
