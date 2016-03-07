@@ -42,9 +42,12 @@ set fileencodings=utf-8,cp936
 set nobackup
 au BufRead,BufNewFile *.txt set filetype=tex
 let g:jsx_ext_required = 0
-set tabstop=4
 set expandtab
+set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+autocmd FileType javascript set tabstop=2
+autocmd FileType javascript set softtabstop=2
+autocmd FileType javascript set shiftwidth=2
 set textwidth=0
 map \. f¡£
