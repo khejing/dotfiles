@@ -40,6 +40,7 @@ source $VIM/_vimrc
 set guioptions-=T
 set fileencodings=utf-8,cp936
 set nobackup
+set ignorecase smartcase
 au BufRead,BufNewFile *.txt set filetype=tex
 autocmd FileType tex set textwidth=0
 set expandtab
