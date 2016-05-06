@@ -1,6 +1,7 @@
 source $VIM/_vimrc
 set fileencodings=utf-8,cp936
 set wrap
+set nospell
 au BufRead,BufNewFile *.txt set filetype=tex
 autocmd FileType tex set textwidth=0
 autocmd FileType tex set nonumber
