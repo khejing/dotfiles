@@ -2476,7 +2476,9 @@ var domains = {
   "wtfpeople.com": 1, 
   "1-apple.com.tw": 1,
   "medium.com": 1,
-  "unpkg.com": 1
+  "unpkg.com": 1,
+  "speakerdeck.com": 1,
+  "cloudfront.net": 1
 };
 
 var proxy = "__PROXY__";
@@ -2503,4 +2505,4 @@ function FindProxyForURL(url, host) {
         }
         pos = host.lastIndexOf('.', pos - 1);
     }
-}
+speakerdeck.com}
