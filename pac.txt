@@ -2478,7 +2478,8 @@ var domains = {
   "medium.com": 1,
   "unpkg.com": 1,
   "speakerdeck.com": 1,
-  "cloudfront.net": 1
+  "cloudfront.net": 1,
+  "github.io": 1
 };
 
 var proxy = "__PROXY__";
