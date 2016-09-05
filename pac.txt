@@ -2478,6 +2478,7 @@ var domains = {
   "1-apple.com.tw": 1,
   "medium.com": 1,
   "unpkg.com": 1,
+  "npmcdn.com": 1,
   "speakerdeck.com": 1,
   "cloudfront.net": 1,
   "github.io": 1,
