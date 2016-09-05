@@ -2482,7 +2482,8 @@ var domains = {
   "speakerdeck.com": 1,
   "cloudfront.net": 1,
   "github.io": 1,
-  "cloudflare.com": 1
+  "cloudflare.com": 1,
+  "discordapp.com": 1
 };
 
 var proxy = "__PROXY__";
