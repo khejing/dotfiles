@@ -2483,7 +2483,8 @@ var domains = {
   "cloudfront.net": 1,
   "github.io": 1,
   "cloudflare.com": 1,
-  "discordapp.com": 1
+  "discordapp.com": 1,
+  "gist.github.com": 1
 };
 
 var proxy = "__PROXY__";
