@@ -2472,7 +2472,9 @@ var domains = {
   "discordapp.com": 1,
   "gist.github.com": 1,
   "tumblr.com": 1,
-  "a3.behance.net": 1
+  "a3.behance.net": 1,
+  "uplabs.com": 1,
+  "assets.materialup.com": 1
 };
 
 var proxy = "__PROXY__";
