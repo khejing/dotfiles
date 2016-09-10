@@ -2474,7 +2474,8 @@ var domains = {
   "tumblr.com": 1,
   "a3.behance.net": 1,
   "uplabs.com": 1,
-  "assets.materialup.com": 1
+  "assets.materialup.com": 1,
+  "coreos.com": 1
 };
 
 var proxy = "__PROXY__";
