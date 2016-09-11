@@ -2475,7 +2475,8 @@ var domains = {
   "a3.behance.net": 1,
   "uplabs.com": 1,
   "assets.materialup.com": 1,
-  "coreos.com": 1
+  "coreos.com": 1,
+  "phcdn.net": 1
 };
 
 var proxy = "__PROXY__";
