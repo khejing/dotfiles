@@ -2477,7 +2477,9 @@ var domains = {
   "assets.materialup.com": 1,
   "coreos.com": 1,
   "phcdn.net": 1,
-  "smock.io": 1
+  "smock.io": 1,
+  "codepen.io": 1,
+  "unsplash.it": 1
 };
 
 var proxy = "__PROXY__";
