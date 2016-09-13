@@ -2482,7 +2482,10 @@ var domains = {
   "unsplash.it": 1,
   "crew.co": 1,
   "unsplash.com": 1,
-  "reddit.com": 1
+  "reddit.com": 1,
+  "redditstatic.com": 1,
+  "redditmedia.com": 1,
+  "gfycat.com": 1
 };
 
 var proxy = "__PROXY__";
