@@ -2479,7 +2479,9 @@ var domains = {
   "phcdn.net": 1,
   "smock.io": 1,
   "codepen.io": 1,
-  "unsplash.it": 1
+  "unsplash.it": 1,
+  "crew.co": 1,
+  "unsplash.com": 1
 };
 
 var proxy = "__PROXY__";
