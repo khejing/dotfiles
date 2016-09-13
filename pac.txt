@@ -2476,7 +2476,8 @@ var domains = {
   "uplabs.com": 1,
   "assets.materialup.com": 1,
   "coreos.com": 1,
-  "phcdn.net": 1
+  "phcdn.net": 1,
+  "smock.io": 1
 };
 
 var proxy = "__PROXY__";
