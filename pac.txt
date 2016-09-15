@@ -2486,7 +2486,8 @@ var domains = {
   "redditstatic.com": 1,
   "redditmedia.com": 1,
   "gfycat.com": 1,
-  "image.flaticon.com": 1
+  "image.flaticon.com": 1,
+  "mochajs.org": 1
 };
 
 var proxy = "__PROXY__";
