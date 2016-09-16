@@ -2491,7 +2491,8 @@ var domains = {
   "opencollective.com": 1,
   "flattr.com": 1,
   "gitter.im": 1,
-  "githubusercontent.com": 1
+  "githubusercontent.com": 1,
+  "html5rocks.com": 1
 };
 
 var proxy = "__PROXY__";
