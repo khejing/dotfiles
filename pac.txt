@@ -2492,7 +2492,8 @@ var domains = {
   "flattr.com": 1,
   "gitter.im": 1,
   "html5rocks.com": 1,
-  "www.fullstackreact.com": 1
+  "www.fullstackreact.com": 1,
+  "goo.gl": 1
 };
 
 var proxy = "__PROXY__";
