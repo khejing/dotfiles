@@ -2406,6 +2406,7 @@ var domains = {
   "hk": 1, 
   "ajax.googleapis.com": 1, 
   "storage.googleapis.com": 1, 
+  "maps.googleapis.com": 1, 
   "ydy.com": 1, 
   "bipic.net": 1, 
   "tibet.com": 1, 
