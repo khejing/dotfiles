@@ -2494,7 +2494,8 @@ var domains = {
   "gitter.im": 1,
   "html5rocks.com": 1,
   "www.fullstackreact.com": 1,
-  "goo.gl": 1
+  "goo.gl": 1,
+  "editmysite.com": 1
 };
 
 var proxy = "__PROXY__";
