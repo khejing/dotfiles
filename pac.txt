@@ -2497,7 +2497,8 @@ var domains = {
   "goo.gl": 1,
   "editmysite.com": 1,
   "juicessh.com": 1,
-  "quoracdn.net": 1
+  "quoracdn.net": 1,
+  "akamaihd.net": 1
 };
 
 var proxy = "__PROXY__";
