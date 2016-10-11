@@ -2498,7 +2498,9 @@ var domains = {
   "editmysite.com": 1,
   "juicessh.com": 1,
   "quoracdn.net": 1,
-  "akamaihd.net": 1
+  "akamaihd.net": 1,
+  "getsync.com": 1,
+  "resilio.com": 1
 };
 
 var proxy = "__PROXY__";
