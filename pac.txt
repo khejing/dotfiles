@@ -2178,7 +2178,6 @@ var domains = {
   "ufreevpn.com": 1, 
   "sufeng.org": 1, 
   "veempiire.com": 1, 
-  "delicious.com": 1, 
   "thebcomplex.com": 1, 
   "noypf.com": 1, 
   "radiovaticana.org": 1, 
