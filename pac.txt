@@ -2502,7 +2502,8 @@ var domains = {
   "resilio.com": 1,
   "dropboxstatic.com": 1,
   "uvcdn.com": 1,
-  "productpains.com": 1
+  "productpains.com": 1,
+  "googlesource.com": 1
 };
 
 var proxy = "__PROXY__";
