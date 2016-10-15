@@ -2507,7 +2507,8 @@ var domains = {
   "readme.io": 1,
   "scribd.com": 1,
   "scribdassets.com": 1,
-  "mega.co.nz": 1
+  "mega.co.nz": 1,
+  "tacit.dk": 1
 };
 
 var proxy = "__PROXY__";
