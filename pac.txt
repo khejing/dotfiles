@@ -2506,7 +2506,8 @@ var domains = {
   "googlesource.com": 1,
   "readme.io": 1,
   "scribd.com": 1,
-  "scribdassets.com": 1
+  "scribdassets.com": 1,
+  "mega.co.nz": 1
 };
 
 var proxy = "__PROXY__";
