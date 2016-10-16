@@ -2511,7 +2511,8 @@ var domains = {
   "tacit.dk": 1,
   "netdrive.net": 1,
   "start.me": 1,
-  "getsuperbook.com": 1
+  "getsuperbook.com": 1,
+  "sonatype.com": 1
 };
 
 var proxy = "__PROXY__";
