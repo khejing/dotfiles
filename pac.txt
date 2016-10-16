@@ -2513,7 +2513,9 @@ var domains = {
   "start.me": 1,
   "getsuperbook.com": 1,
   "sonatype.com": 1,
-  "bower.io": 1
+  "bower.io": 1,
+  "bintray.com": 1,
+  "gradle.org": 1
 };
 
 var proxy = "__PROXY__";
