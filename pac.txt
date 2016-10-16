@@ -2509,7 +2509,8 @@ var domains = {
   "scribdassets.com": 1,
   "mega.co.nz": 1,
   "tacit.dk": 1,
-  "netdrive.net": 1
+  "netdrive.net": 1,
+  "start.me": 1
 };
 
 var proxy = "__PROXY__";
