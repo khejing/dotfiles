@@ -2512,7 +2512,8 @@ var domains = {
   "netdrive.net": 1,
   "start.me": 1,
   "getsuperbook.com": 1,
-  "sonatype.com": 1
+  "sonatype.com": 1,
+  "bower.io": 1
 };
 
 var proxy = "__PROXY__";
