@@ -2520,8 +2520,7 @@ var domains = {
   "gradle.org": 1,
   "cdn.mozilla.net": 1,
   "opentokrtc.com": 1,
-  "plurk.com": 1,
-  "ntcanuck.com": 1
+  "plurk.com": 1
 };
 
 var proxy = "__PROXY__";
