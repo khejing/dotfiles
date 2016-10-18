@@ -2516,7 +2516,8 @@ var domains = {
   "bower.io": 1,
   "bintray.com": 1,
   "gradle.org": 1,
-  "cdn.mozilla.net": 1
+  "cdn.mozilla.net": 1,
+  "getdropbox.com": 1
 };
 
 var proxy = "__PROXY__";
