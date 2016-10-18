@@ -24,9 +24,10 @@ var domains = {
   "robtex.com": 1, 
   "thelifeyoucansave.com": 1, 
   "perfspot.com": 1, 
-  "ugo.com": 1, 
+  "ugo.com": 1,
   "amazonaws.com": 1,
-  "army.mil": 1, 
+  "awsstatic.com": 1,
+  "army.mil": 1,
   "amoiist.com": 1, 
   "uderzo.it": 1, 
   "zillionk.com": 1, 
@@ -628,6 +629,9 @@ var domains = {
   "xh4n.cn": 1, 
   "botanwang.com": 1, 
   "dropbox.com": 1, 
+  "dropboxstatic.com": 1,
+  "dropboxusercontent.com": 1, 
+  "getdropbox.com": 1,
   "hellouk.org": 1, 
   "animecrazy.net": 1, 
   "navigeaters.com": 1, 
@@ -1877,7 +1881,6 @@ var domains = {
   "aol.ca": 1, 
   "tsunagarumon.com": 1, 
   "hinet.net": 1, 
-  "dropboxusercontent.com": 1, 
   "cherrysave.com": 1, 
   "mondex.org": 1, 
   "dwnews.com": 1, 
@@ -2500,7 +2503,6 @@ var domains = {
   "akamaihd.net": 1,
   "getsync.com": 1,
   "resilio.com": 1,
-  "dropboxstatic.com": 1,
   "uvcdn.com": 1,
   "productpains.com": 1,
   "googlesource.com": 1,
@@ -2516,8 +2518,7 @@ var domains = {
   "bower.io": 1,
   "bintray.com": 1,
   "gradle.org": 1,
-  "cdn.mozilla.net": 1,
-  "getdropbox.com": 1
+  "cdn.mozilla.net": 1
 };
 
 var proxy = "__PROXY__";
