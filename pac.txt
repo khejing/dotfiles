@@ -2524,7 +2524,8 @@ var domains = {
   "davidwalsh.name": 1,
   "slack.com": 1,
   "onesignal.com": 1,
-  "land-book.com": 1
+  "land-book.com": 1,
+  "shapeways.com": 1
 };
 
 var proxy = "__PROXY__";
