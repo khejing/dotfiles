@@ -2525,7 +2525,8 @@ var domains = {
   "slack.com": 1,
   "onesignal.com": 1,
   "land-book.com": 1,
-  "shapeways.com": 1
+  "shapeways.com": 1,
+  "pushbullet.com": 1
 };
 
 var proxy = "__PROXY__";
