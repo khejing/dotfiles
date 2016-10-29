@@ -2527,7 +2527,8 @@ var domains = {
   "onesignal.com": 1,
   "land-book.com": 1,
   "shapeways.com": 1,
-  "pushbullet.com": 1
+  "pushbullet.com": 1,
+  "thinkful.com": 1
 };
 
 var proxy = "__PROXY__";
