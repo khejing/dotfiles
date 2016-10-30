@@ -2529,7 +2529,10 @@ var domains = {
   "shapeways.com": 1,
   "pushbullet.com": 1,
   "thinkful.com": 1,
-  "qualified.io": 1
+  "qualified.io": 1,
+  "codeschool.com": 1,
+  "commandlinefu.com": 1,
+  "copy.sh": 1
 };
 
 var proxy = "__PROXY__";
