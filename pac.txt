@@ -2532,7 +2532,9 @@ var domains = {
   "qualified.io": 1,
   "codeschool.com": 1,
   "commandlinefu.com": 1,
-  "copy.sh": 1
+  "copy.sh": 1,
+  "risingstack.com": 1,
+  "visualgo.net": 1
 };
 
 var proxy = "__PROXY__";
