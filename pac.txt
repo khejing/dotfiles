@@ -2534,7 +2534,8 @@ var domains = {
   "commandlinefu.com": 1,
   "copy.sh": 1,
   "risingstack.com": 1,
-  "visualgo.net": 1
+  "visualgo.net": 1,
+  "haproxy.org": 1
 };
 
 var proxy = "__PROXY__";
