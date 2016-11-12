@@ -3809,7 +3809,8 @@ var rules = [
   "||risingstack.com",
   "||visualgo.net",
   "||haproxy.org",
-  "||stackoverflow.com"
+  "||stackoverflow.com",
+  "||valdhaus.co"
 ];
 
 /*

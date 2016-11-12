@@ -2535,7 +2535,9 @@ var domains = {
   "copy.sh": 1,
   "risingstack.com": 1,
   "visualgo.net": 1,
-  "haproxy.org": 1
+  "haproxy.org": 1,
+  "stackoverflow.com": 1,
+  "valdhaus.co": 1
 };
 
 var proxy = "__PROXY__";
