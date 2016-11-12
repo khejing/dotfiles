@@ -5,7 +5,6 @@ set nospell
 set relativenumber
 au BufRead,BufNewFile *.txt set filetype=tex
 autocmd FileType tex set textwidth=0
-autocmd FileType tex set nonumber
 autocmd FileType javascript set tabstop=2
 autocmd FileType javascript set softtabstop=2
 autocmd FileType javascript set shiftwidth=2
