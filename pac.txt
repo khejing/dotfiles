@@ -2536,8 +2536,9 @@ var domains = {
   "risingstack.com": 1,
   "visualgo.net": 1,
   "haproxy.org": 1,
-  "stackoverflow.com": 1,
-  "valdhaus.co": 1
+  "valdhaus.co": 1,
+  "cloudpipes.com": 1,
+  "slant.co": 1
 };
 
 var proxy = "__PROXY__";

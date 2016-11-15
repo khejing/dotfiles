@@ -3810,7 +3810,9 @@ var rules = [
   "||visualgo.net",
   "||haproxy.org",
   "||stackoverflow.com",
-  "||valdhaus.co"
+  "||valdhaus.co",
+  "||cloudpipes.com",
+  "||slant.co"
 ];
 
 /*
