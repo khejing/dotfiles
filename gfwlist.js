@@ -3813,7 +3813,8 @@ var rules = [
   "||valdhaus.co",
   "||cloudpipes.com",
   "||slant.co",
-  "||fastlane.tools"
+  "||fastlane.tools",
+  "||stackstorm.com"
 ];
 
 /*

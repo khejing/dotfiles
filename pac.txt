@@ -2539,7 +2539,8 @@ var domains = {
   "valdhaus.co": 1,
   "cloudpipes.com": 1,
   "slant.co": 1,
-  "fastlane.tools": 1
+  "fastlane.tools": 1,
+  "stackstorm.com": 1
 };
 
 var proxy = "__PROXY__";
