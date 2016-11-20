@@ -3812,7 +3812,8 @@ var rules = [
   "||stackoverflow.com",
   "||valdhaus.co",
   "||cloudpipes.com",
-  "||slant.co"
+  "||slant.co",
+  "||fastlane.tools"
 ];
 
 /*

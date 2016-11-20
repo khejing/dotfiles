@@ -2538,7 +2538,8 @@ var domains = {
   "haproxy.org": 1,
   "valdhaus.co": 1,
   "cloudpipes.com": 1,
-  "slant.co": 1
+  "slant.co": 1,
+  "fastlane.tools": 1
 };
 
 var proxy = "__PROXY__";
