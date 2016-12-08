@@ -3814,7 +3814,8 @@ var rules = [
   "||cloudpipes.com",
   "||slant.co",
   "||fastlane.tools",
-  "||stackstorm.com"
+  "||stackstorm.com",
+  "||bootstrapcdn.com"
 ];
 
 /*

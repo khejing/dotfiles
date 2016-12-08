@@ -2540,7 +2540,8 @@ var domains = {
   "cloudpipes.com": 1,
   "slant.co": 1,
   "fastlane.tools": 1,
-  "stackstorm.com": 1
+  "stackstorm.com": 1,
+  "bootstrapcdn.com": 1
 };
 
 var proxy = "__PROXY__";
