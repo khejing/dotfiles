@@ -3815,7 +3815,9 @@ var rules = [
   "||slant.co",
   "||fastlane.tools",
   "||stackstorm.com",
-  "||bootstrapcdn.com"
+  "||bootstrapcdn.com",
+  "||docker.com",
+  "||keymetrics.io"
 ];
 
 /*
