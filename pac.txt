@@ -2543,7 +2543,8 @@ var domains = {
   "stackstorm.com": 1,
   "bootstrapcdn.com": 1,
   "docker.com": 1,
-  "keymetrics.io": 1
+  "keymetrics.io": 1,
+  "raindrop.io": 1
 };
 
 var proxy = "__PROXY__";
