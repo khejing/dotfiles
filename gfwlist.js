@@ -3817,7 +3817,8 @@ var rules = [
   "||stackstorm.com",
   "||bootstrapcdn.com",
   "||docker.com",
-  "||keymetrics.io"
+  "||keymetrics.io",
+  "||raindrop.io"
 ];
 
 /*
