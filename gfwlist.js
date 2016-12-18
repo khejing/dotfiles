@@ -3819,7 +3819,8 @@ var rules = [
   "||docker.com",
   "||keymetrics.io",
   "||raindrop.io",
-  "||robotjs.io"
+  "||robotjs.io",
+  "||nodejs.org"
 ];
 
 /*

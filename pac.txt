@@ -2545,7 +2545,8 @@ var domains = {
   "docker.com": 1,
   "keymetrics.io": 1,
   "raindrop.io": 1,
-  "robotjs.io": 1
+  "robotjs.io": 1,
+  "nodejs.org": 1
 };
 
 var proxy = "__PROXY__";
