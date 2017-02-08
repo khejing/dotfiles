@@ -2547,7 +2547,8 @@ var domains = {
   "raindrop.io": 1,
   "robotjs.io": 1,
   "nodejs.org": 1,
-  "ruanyifeng.com": 1
+  "ruanyifeng.com": 1,
+  "algolia.com": 1
 };
 
 var proxy = "__PROXY__";
