@@ -144,7 +144,7 @@ var rules = [
   "analyze-v.com", 
   "||anchorfree.com", 
   "||andfaraway.net", 
-  "||android.com", 
+  "||android.com",
   "||angularjs.org", 
   "animecrazy.net", 
   "||anobii.com", 
@@ -3821,6 +3821,8 @@ var rules = [
   "||raindrop.io",
   "||robotjs.io",
   "||nodejs.org",
+  "||ruanyifeng.com",
+  "||algolia.com",
   "||matplotlib.org"
 ];
 
