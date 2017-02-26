@@ -3820,7 +3820,8 @@ var rules = [
   "||keymetrics.io",
   "||raindrop.io",
   "||robotjs.io",
-  "||nodejs.org"
+  "||nodejs.org",
+  "||matplotlib.org"
 ];
 
 /*
