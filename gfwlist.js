@@ -3823,7 +3823,8 @@ var rules = [
   "||nodejs.org",
   "||ruanyifeng.com",
   "||algolia.com",
-  "||matplotlib.org"
+  "||matplotlib.org",
+  "||anaconda.org"
 ];
 
 /*

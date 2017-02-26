@@ -2549,7 +2549,8 @@ var domains = {
   "nodejs.org": 1,
   "ruanyifeng.com": 1,
   "algolia.com": 1,
-  "matplotlib.org": 1
+  "matplotlib.org": 1,
+  "anaconda.org": 1
 };
 
 var proxy = "__PROXY__";
