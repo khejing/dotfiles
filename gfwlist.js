@@ -3824,6 +3824,8 @@ var rules = [
   "||ruanyifeng.com",
   "||algolia.com",
   "||matplotlib.org",
+  "||pinterest.com",
+  "||sharelatex.com",
   "||anaconda.org"
 ];
 

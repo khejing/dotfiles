@@ -2550,6 +2550,11 @@ var domains = {
   "ruanyifeng.com": 1,
   "algolia.com": 1,
   "matplotlib.org": 1,
+  "pornhub.com": 1,
+  "phncdn.com": 1,
+  "rncdn3.com": 1,
+  "pinterest.com": 1,
+  "sharelatex.com": 1,
   "anaconda.org": 1
 };
 
