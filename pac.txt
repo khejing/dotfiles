@@ -2406,9 +2406,7 @@ var domains = {
   "mingpao.com": 1, 
   "crd-net.org": 1, 
   "hk": 1, 
-  "ajax.googleapis.com": 1, 
-  "storage.googleapis.com": 1, 
-  "maps.googleapis.com": 1, 
+  "googleapis.com": 1,
   "ydy.com": 1, 
   "bipic.net": 1, 
   "tibet.com": 1, 
@@ -2556,7 +2554,8 @@ var domains = {
   "rncdn3.com": 1,
   "pinterest.com": 1,
   "sharelatex.com": 1,
-  "anaconda.org": 1
+  "anaconda.org": 1,
+  "googlecode.com": 1
 };
 
 var proxy = "__PROXY__";
