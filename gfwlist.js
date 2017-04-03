@@ -3808,6 +3808,7 @@ var rules = [
   "||copy.sh",
   "||risingstack.com",
   "||visualgo.net",
+  "||jasonpark.me",
   "||haproxy.org",
   "||stackoverflow.com",
   "||valdhaus.co",
@@ -3826,7 +3827,8 @@ var rules = [
   "||matplotlib.org",
   "||pinterest.com",
   "||sharelatex.com",
-  "||anaconda.org"
+  "||anaconda.org",
+  "||googlecode.com"
 ];
 
 /*
