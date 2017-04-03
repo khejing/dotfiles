@@ -1437,7 +1437,6 @@ var domains = {
   "hkjp.org": 1, 
   "stoneip.info": 1, 
   "googleusercontent.com": 1, 
-  "amazon.com": 1, 
   "old-cat.net": 1, 
   "shadow.ma": 1, 
   "instagram.com": 1, 
