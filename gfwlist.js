@@ -3826,6 +3826,8 @@ var rules = [
   "||algolia.com",
   "||matplotlib.org",
   "||pinterest.com",
+  "||pinimg.com",
+  "||accountkit.com",
   "||sharelatex.com",
   "||anaconda.org",
   "||googlecode.com"
