@@ -2545,6 +2545,8 @@ var domains = {
   "phncdn.com": 1,
   "rncdn3.com": 1,
   "pinterest.com": 1,
+  "pinimg.com": 1,
+  "accountkit.com": 1,
   "sharelatex.com": 1,
   "anaconda.org": 1,
   "googlecode.com": 1
