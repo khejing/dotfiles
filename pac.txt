@@ -2535,7 +2535,6 @@ var domains = {
   "bootstrapcdn.com": 1,
   "docker.com": 1,
   "keymetrics.io": 1,
-  "raindrop.io": 1,
   "robotjs.io": 1,
   "nodejs.org": 1,
   "ruanyifeng.com": 1,

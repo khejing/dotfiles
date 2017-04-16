@@ -3819,7 +3819,6 @@ var rules = [
   "||bootstrapcdn.com",
   "||docker.com",
   "||keymetrics.io",
-  "||raindrop.io",
   "||robotjs.io",
   "||nodejs.org",
   "||ruanyifeng.com",
