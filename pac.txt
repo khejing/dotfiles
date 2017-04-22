@@ -318,7 +318,6 @@ var domains = {
   "geohot.com": 1, 
   "heqinglian.net": 1, 
   "xinmiao.com.hk": 1, 
-  "skype.com": 1, 
   "gtricks.com": 1, 
   "uniteddaily.com.my": 1, 
   "westkit.net": 1, 
@@ -2462,7 +2461,6 @@ var domains = {
   "cloudfront.net": 1,
   "github.io": 1,
   "gist.github.com": 1,
-  "github.com": 1,
   "cloudflare.com": 1,
   "discordapp.com": 1,
   "tumblr.com": 1,
@@ -2548,7 +2546,8 @@ var domains = {
   "accountkit.com": 1,
   "sharelatex.com": 1,
   "anaconda.org": 1,
-  "googlecode.com": 1
+  "googlecode.com": 1,
+  "atom.io": 1
 };
 
 var proxy = "__PROXY__";

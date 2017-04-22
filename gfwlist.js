@@ -2222,8 +2222,6 @@ var rules = [
   "||skybet.com", 
   "|http://skyhighpremium.com/", 
   "bbs.skykiwi.com", 
-  "|http://www.skype.com/intl/", 
-  "|http://www.skype.com/zh-Hant", 
   "||skyvegas.com", 
   ".xskywalker.com", 
   "||xskywalker.com", 
@@ -3737,7 +3735,6 @@ var rules = [
   "||google.co.hk", 
   "||bbc.co.uk", 
   "||googlesyndication.com", 
-  "||github.com", 
   "||wikipedia.org", 
   "||amazonaws.com", 
   "||awsstatic.com",
@@ -3748,7 +3745,6 @@ var rules = [
   "||unpkg.com",
   "||npmcdn.com",
   "||speakerdeck.com",
-  "||github.io",
   "||cloudflare.com",
   "||discordapp.com",
   "||tumblr.com",
@@ -3829,7 +3825,8 @@ var rules = [
   "||accountkit.com",
   "||sharelatex.com",
   "||anaconda.org",
-  "||googlecode.com"
+  "||googlecode.com",
+  "||atom.io"
 ];
 
 /*
