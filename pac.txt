@@ -265,7 +265,7 @@ var domains = {
   "blogimg.jp": 1, 
   "twitterkr.com": 1, 
   "tanc.org": 1, 
-  "anontext.com": 1, 
+  "anontxt.com": 1, 
   "twurl.nl": 1, 
   "pilotmoon.com": 1, 
   "fulue.com": 1, 
@@ -2547,7 +2547,10 @@ var domains = {
   "sharelatex.com": 1,
   "anaconda.org": 1,
   "googlecode.com": 1,
-  "atom.io": 1
+  "atom.io": 1,
+  "textnow.com": 1,
+  "textnow.me": 1,
+  "pinger.com": 1
 };
 
 var proxy = "__PROXY__";
