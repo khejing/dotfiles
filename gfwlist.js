@@ -3826,7 +3826,7 @@ var rules = [
   "||sharelatex.com",
   "||anaconda.org",
   "||googlecode.com",
-  "||atom.io"
+  "||yinwang.org"
 ];
 
 /*
