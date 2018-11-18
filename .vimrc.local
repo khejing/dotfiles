@@ -8,5 +8,5 @@ autocmd FileType tex set textwidth=0
 autocmd FileType javascript set tabstop=2
 autocmd FileType javascript set softtabstop=2
 autocmd FileType javascript set shiftwidth=2
-map \. f¡£
-map \, f£¬
+map f. f¡£
+map f, f£¬
