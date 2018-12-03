@@ -1,4 +1,5 @@
 colorscheme darkblue
 au BufRead,BufNewFile *.txt set filetype=tex
+set ignorecase smartcase
 map f. f。
 map f, f，
