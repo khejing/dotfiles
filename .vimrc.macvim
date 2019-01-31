@@ -2,6 +2,7 @@ colorscheme darkblue
 au BufRead,BufNewFile *.txt set filetype=tex
 set ignorecase smartcase
 set hlsearch
+set ruler
 map f. f。
 map f, f，
 map j gj
