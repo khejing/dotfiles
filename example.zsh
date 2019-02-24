@@ -8,4 +8,4 @@
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
 #
-alias gh='git log --pretty=format:"%C(auto)%h %ad | %C(auto)%s%d  %Cblue(%an)" --graph --date=short'
+alias gh='git log --pretty=format:"%C(auto)%h %ad | %C(auto)%s%d" --date=format:"%y-%m-%d %R"'
