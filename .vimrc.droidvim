@@ -1,4 +1,4 @@
-au BufRead,BufNewFile *.txt set filetype=tex
+au BufRead,BufNewFile *.txt set filetype=tex inde=
 map f. f。
 map f, f，
 map j gj
