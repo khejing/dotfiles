@@ -2,6 +2,7 @@ au BufRead,BufNewFile *.txt set filetype=tex inde=
 set ignorecase smartcase
 map ： :
 map ？ ?
+map ／ /
 map f. f。
 map f, f，
 map j gj
