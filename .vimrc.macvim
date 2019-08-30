@@ -1,4 +1,4 @@
-colorscheme darkblue
+colorscheme murphy
 au BufRead,BufNewFile *.txt set filetype=tex
 set ignorecase smartcase
 set hlsearch
