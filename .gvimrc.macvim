@@ -1,5 +1,5 @@
 colorscheme murphy
-au BufRead,BufNewFile *.txt set filetype=tex
+au BufRead,BufNewFile *.txt set filetype=tex inde=
 set ignorecase smartcase
 set hlsearch
 set noimd
