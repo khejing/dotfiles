@@ -1,5 +1,6 @@
 au BufRead,BufNewFile *.txt set filetype=tex inde=
 set ignorecase smartcase
+set hlsearch
 map ： :
 map ？ ?
 map ／ /
