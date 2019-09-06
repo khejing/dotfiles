@@ -2,11 +2,10 @@ colorscheme murphy
 au BufRead,BufNewFile *.txt set filetype=tex
 set ignorecase smartcase
 set hlsearch
-set ruler
+set noimd
 map f. f。
 map f, f，
 map j gj
 map k gk
 map 、 /
 map ： :
-set noimd
