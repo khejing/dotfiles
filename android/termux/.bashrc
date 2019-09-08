@@ -145,3 +145,6 @@ if [ ! -L "/data/data/com.termux/files/home/Documents" ];then
         ln -s /storage/emulated/0/Git/Documents ~/Documents
 fi
 cd ~/Documents
+function m {
+	cd /data/data/com.termux/files/home/storage/shared/Git/memos
+}
