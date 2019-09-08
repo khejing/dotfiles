@@ -1,6 +1,8 @@
 au BufRead,BufNewFile *.txt set filetype=tex inde=
+set noswapfile
 set ignorecase smartcase
 set hlsearch
+nmap S :w<CR>:wviminfo<CR>
 map ： :
 map ？ ?
 map ／ /
