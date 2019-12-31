@@ -11,3 +11,4 @@ map j gj
 map k gk
 map 、 /
 map ： :
+nmap ZZ :new<CR><C-W><C-W>:quit<CR>
