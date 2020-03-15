@@ -142,9 +142,3 @@ alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify -m "--wip-- [skip ci]"'
 alias gh='git log --pretty=format:"%C(auto)%h %ad | %C(auto)%s%d" --date=format:"%y-%m-%d %R"'
 cd /storage/emulated/0/Git/Documents
-function m {
-	cd ../memos
-}
-function d {
-	cd ../Documents
-}
