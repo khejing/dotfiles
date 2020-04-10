@@ -32,6 +32,7 @@ set mouse=a
 au BufRead,BufNewFile *.txt set filetype=tex inde=
 set noswapfile
 set hlsearch
+set laststatus=2
 nmap 存 :w<CR>:wviminfo<CR>
 map ： :
 map ？ ?
