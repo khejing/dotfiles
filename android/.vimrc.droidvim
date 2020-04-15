@@ -37,7 +37,9 @@ nmap 存 :w<CR>:wviminfo<CR>
 map ： :
 map ？ ?
 map ／ /
+map F. F。
 map f. f。
+map F, F，
 map f, f，
 map j gj
 map k gk
