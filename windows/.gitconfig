@@ -1,0 +1,6 @@
+[core]
+	quotepath = false
+	longpaths = true
+[user]
+	email = khejing3@aliyun.com
+	name = Will Lee
