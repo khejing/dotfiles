@@ -1,7 +1,6 @@
-set encoding=utf-8
-set fileencodings=utf-8,ucs-bom,default,latin1
-source $VIMRUNTIME/delmenu.vim
-source $VIMRUNTIME/menu.vim
+source $VIMRUNTIME/mswin.vim
+set go-=T
+set go-=m
 set nobackup
 set undodir=~/.vimundodir
 colorscheme murphy
