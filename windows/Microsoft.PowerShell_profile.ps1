@@ -10,6 +10,8 @@ function git-add {git add $args}
 Set-Alias ga git-add
 function git-commit {git commit -m $args}
 Set-Alias gcmsg git-commit
+function git-add-commit {git commit -am $args}
+Set-Alias gcam git-add-commit
 function git-history {git log --pretty=format:"%C(auto)%h %ad | %C(auto)%s%d" --date=format:"%y-%m-%d %R"}
 Set-Alias gh git-history
 function git-log {git log --stat -p}
