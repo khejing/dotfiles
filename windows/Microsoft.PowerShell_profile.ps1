@@ -8,6 +8,10 @@ function git-add-interactive {git add -p}
 Set-Alias gapa git-add-interactive
 function git-add {git add $args}
 Set-Alias ga git-add
+function git-add-all {git add -A}
+Set-Alias gaa git-add-all
+function git-reset-last {git reset HEAD^}
+Set-Alias grhl git-reset-last
 function git-commit {git commit -m $args}
 Set-Alias gcmsg git-commit
 function git-add-commit {git commit -am $args}
@@ -26,3 +30,12 @@ function git-pull {git pull}
 Set-Alias gitl git-pull
 function git-pull-rebase {git pull --rebase}
 Set-Alias gup git-pull-rebase
+function git-work-in-progress {git add -A; git rm $(git ls-files --deleted) 2>&1 | Out-Null; git commit --no-verify -m "--wip-- [skip ci]"}
+Set-Alias gwip git-work-in-progress
+function git-undo-work-in-progress {git log -n 1 | findstr "\-\-wip\-\-" 2>&1 | Out-Null; if ($?) { git reset HEAD~1 }}
+Set-Alias gunwip git-undo-work-in-progress
+function prompt
+{
+    Write-Host ("PS "+$pwd+" | "+$(get-date)+">") -nonewline -foregroundcolor White
+    return " "
+}
