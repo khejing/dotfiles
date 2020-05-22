@@ -1,6 +1,6 @@
 function git-status {git status}
 Set-Alias gst git-status
-function git-diff {git diff}
+function git-diff {git diff $args}
 Set-Alias gd git-diff
 function git-diff-cache {git diff --cached}
 Set-Alias gdca git-diff-cache
@@ -16,9 +16,9 @@ function git-commit {git commit -m $args}
 Set-Alias gcmsg git-commit
 function git-add-commit {git commit -am $args}
 Set-Alias gcam git-add-commit
-function git-history {git log --pretty=format:"%C(auto)%h %ad | %C(auto)%s%d" --date=format:"%y-%m-%d %R"}
+function git-history {git log --pretty=format:"%C(auto)%h %ad | %C(auto)%s%d" --date=format:"%y-%m-%d %R" $args}
 Set-Alias gh git-history
-function git-log {git log --stat -p}
+function git-log {git log --stat -p $args}
 Set-Alias glgp git-log
 function git-grep {git grep -i $args}
 Set-Alias ggr git-grep
