@@ -36,6 +36,6 @@ function git-undo-work-in-progress {git log -n 1 | findstr "\-\-wip\-\-" 2>&1 | 
 Set-Alias gunwip git-undo-work-in-progress
 function prompt
 {
-    Write-Host ("PS "+$pwd+" | "+$(get-date)+">") -nonewline -foregroundcolor White
+    Write-Host ("PS "+$pwd+" | "+$(get-date)+">") -nonewline
     return " "
 }
