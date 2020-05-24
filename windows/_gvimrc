@@ -8,3 +8,4 @@ set ignorecase smartcase
 unmap <C-F>
 map j gj
 map k gk
+map ： :
