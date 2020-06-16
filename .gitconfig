@@ -6,3 +6,8 @@
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
 	quotePath = false
+[color]
+	ui = true
+[color "diff-highlight"]
+	newHighlight = green bold reverse
+	oldHighlight = red bold reverse
