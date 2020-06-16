@@ -4,8 +4,12 @@ set nobackup
 set undodir=~/.vimundodir
 colorscheme murphy
 au BufRead,BufNewFile *.txt set filetype=tex inde=
+au TerminalOpen * call term_sendkeys('', "cd Documents\<CR>")
 set ignorecase smartcase
 unmap <C-F>
 map j gj
 map k gk
 map ： :
+tmap <C-V> <C-W>"*
+tmap <C-Y> <C-W>""
+command UbuntuTerm :term ubuntu1804.exe
