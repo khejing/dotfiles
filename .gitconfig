@@ -6,6 +6,7 @@
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
 	quotePath = false
+	editor = vim
 [color]
 	ui = true
 [color "diff-highlight"]
