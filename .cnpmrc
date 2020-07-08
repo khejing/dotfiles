@@ -1,0 +1,4 @@
+puppeteer_download_host=https://storage.googleapis.com.cnpmjs.org
+geckodriver_cdnurl=https://npm.taobao.org/mirrors/geckodriver
+sharp_dist_base_url=https://npm.taobao.org/mirrors/sharp-libvips/v8.9.0/
+electron_mirror=https://npm.taobao.org/mirrors/electron/
