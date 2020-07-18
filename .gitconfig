@@ -1,5 +1,3 @@
-[credential]
-	helper = store
 [user]
 	email = khejing3@aliyun.com
 	name = Will Lee
@@ -12,3 +10,5 @@
 [color "diff-highlight"]
 	newHighlight = green bold reverse
 	oldHighlight = red bold reverse
+[pull]
+	ff = only
