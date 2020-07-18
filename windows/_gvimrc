@@ -7,6 +7,7 @@ au BufRead,BufNewFile *.txt set filetype=tex inde=
 au TerminalOpen * call term_sendkeys('', "cd Documents\<CR>")
 set ignorecase smartcase
 unmap <C-F>
+unmap <C-Y>
 map j gj
 map k gk
 map ： :
