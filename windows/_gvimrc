@@ -2,6 +2,7 @@ set go-=T
 set go-=m
 set nobackup
 set undodir=~/.vimundodir
+set encoding=utf-8
 colorscheme murphy
 au BufRead,BufNewFile *.txt set filetype=tex inde=
 au TerminalOpen * call term_sendkeys('', "cd Documents\<CR>")
