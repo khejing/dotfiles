@@ -1,5 +1,7 @@
 set go-=T
 set go-=m
+set go-=r
+set go-=L
 set nobackup
 set undodir=~/.vimundodir
 set encoding=utf-8
