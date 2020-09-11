@@ -2,6 +2,7 @@
 	quotepath = false
 	longpaths = true
 	autocrlf = false
+	filemode = false
 [user]
 	email = khejing3@aliyun.com
 	name = Will Lee
