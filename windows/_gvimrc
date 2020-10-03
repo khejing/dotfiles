@@ -13,6 +13,7 @@ unmap <C-F>
 unmap <C-Y>
 map j gj
 map k gk
+map 、 /
 map ： :
 tmap <C-V> <C-W>"*
 tmap <C-Y> <C-W>""
