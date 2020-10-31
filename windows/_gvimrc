@@ -5,6 +5,8 @@ set go-=L
 set nobackup
 set undodir=~/.vimundodir
 set encoding=utf-8
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
 colorscheme murphy
 au BufRead,BufNewFile *.txt set filetype=tex inde=
 au TerminalOpen * call term_sendkeys('', "cd Documents\<CR>")
