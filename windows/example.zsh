@@ -10,10 +10,11 @@
 #
 windowsIP=`awk '/nameserver/ {print $2}' /etc/resolv.conf`
 myproxy() {
+  export http_proxy="http://$windowsIP:10809"
   export ALL_PROXY="socks5://$windowsIP:10808"
   export GIT_SSH_COMMAND="ssh -o \"ProxyCommand=nc -x $windowsIP:10808 %h %p\""
 }
-alias unproxy='unset ALL_PROXY;unset GIT_SSH_COMMAND'
+alias unproxy='unset http_proxy;unset ALL_PROXY;unset GIT_SSH_COMMAND'
 alias gh='git log --pretty=format:"%C(auto)%h %ad | %<(8,trunc)%an | %C(auto)%s%d" --date=format:"%y-%m-%d %R"'
 alias ggr='git grep -i'
 alias grhl='git reset HEAD^'
