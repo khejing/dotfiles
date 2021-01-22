@@ -34,6 +34,7 @@ set noswapfile
 set hlsearch
 set laststatus=2
 nmap 存 :w<CR>:wviminfo<CR>
+nmap 冒 :s/：/:<CR>
 map ： :
 map ？ ?
 map ／ /
