@@ -13,10 +13,15 @@ au TerminalOpen * call term_sendkeys('', "cd Documents\<CR>")
 set ignorecase smartcase
 unmap <C-F>
 unmap <C-Y>
+map ： :
+map ？ ?
+map 、 /
+map F. F。
+map f. f。
+map F, F，
+map f, f，
 map j gj
 map k gk
-map 、 /
-map ： :
 tmap <C-V> <C-W>"*
 tmap <C-Y> <C-W>""
 command UbuntuTerm :term ubuntu1804.exe
