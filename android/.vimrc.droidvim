@@ -1,6 +1,7 @@
 au BufRead,BufNewFile *.txt set filetype=tex inde=
 set nonumber
 set noswapfile
+set ignorecase smartcase
 set hlsearch
 set laststatus=2
 nmap 存 :w<CR>:wviminfo<CR>
