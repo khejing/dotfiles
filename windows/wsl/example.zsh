@@ -16,6 +16,7 @@ myproxy() {
 }
 alias unproxy='unset http_proxy;unset ALL_PROXY;unset GIT_SSH_COMMAND'
 alias gh='git log --pretty=format:"%C(auto)%h %ad | %<(8,trunc)%an | %C(auto)%s%d" --date=format:"%y-%m-%d %R"'
+alias ghr='gh origin/master'
 alias ggr='git grep -i'
 alias grhl='git reset HEAD^'
 alias glc='git log --pretty=tformat: --numstat . | grep -v "yarn.lock\|package-lock.json" | awk '"'"'{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }'"'"
