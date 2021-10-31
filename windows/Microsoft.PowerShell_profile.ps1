@@ -2,6 +2,8 @@ function git-status {git status}
 Set-Alias gst git-status
 function git-diff {git diff $args}
 Set-Alias gd git-diff
+function git-diff-remote {gd origin/master}
+Set-Alias gitdr git-diff-remote
 function git-diff-cache {git diff --cached}
 Set-Alias gdca git-diff-cache
 function git-add-interactive {git add -p}
@@ -18,14 +20,16 @@ function git-add-commit {git commit -am $args}
 Set-Alias gcam git-add-commit
 function git-history {git log --pretty=format:"%C(auto)%h %ad | %C(auto)%s%d" --date=format:"%y-%m-%d %R" $args}
 Set-Alias gh git-history
+function git-history-remote {gh origin/master}
+Set-Alias ghr git-history-remote
 function git-log {git log --stat -p $args}
 Set-Alias glgp git-log
 function git-grep {git grep -i $args}
 Set-Alias ggr git-grep
 function git-push {git push}
 Set-Alias gitp git-push
-function git-push-force {git push --force}
-Set-Alias gpf! git-push-force
+function git-push-force-with-lease {git push --force-with-lease}
+Set-Alias gpf git-push-force-with-lease
 function git-pull {git pull}
 Set-Alias gitl git-pull
 function git-pull-rebase {git pull --rebase}
@@ -36,6 +40,10 @@ function git-undo-work-in-progress {git log -n 1 | findstr "\-\-wip\-\-" 2>&1 | 
 Set-Alias gunwip git-undo-work-in-progress
 function git-rebase-interactive {git rebase -i}
 Set-Alias grbi git-rebase-interactive
+function git-rebase-abort {git rebase --abort}
+Set-Alias grba git-rebase-abort
+function git-rebase-continue {git rebase -continue}
+Set-Alias grbc git-rebase-continue
 function prompt
 {
     Write-Host ("PS "+$pwd+" | "+$(get-date)+">") -nonewline
