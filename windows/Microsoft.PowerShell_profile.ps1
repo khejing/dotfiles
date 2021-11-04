@@ -38,7 +38,7 @@ function git-work-in-progress {git add -A; git rm $(git ls-files --deleted) 2>&1
 Set-Alias gwip git-work-in-progress
 function git-undo-work-in-progress {git log -n 1 | findstr "\-\-wip\-\-" 2>&1 | Out-Null; if ($?) { git reset HEAD~1 }}
 Set-Alias gunwip git-undo-work-in-progress
-function git-rebase-interactive {git rebase -i}
+function git-rebase-interactive {git rebase -i $args}
 Set-Alias grbi git-rebase-interactive
 function git-rebase-abort {git rebase --abort}
 Set-Alias grba git-rebase-abort
