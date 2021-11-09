@@ -42,7 +42,7 @@ function git-rebase-interactive {git rebase -i $args}
 Set-Alias grbi git-rebase-interactive
 function git-rebase-abort {git rebase --abort}
 Set-Alias grba git-rebase-abort
-function git-rebase-continue {git rebase -continue}
+function git-rebase-continue {git rebase --continue}
 Set-Alias grbc git-rebase-continue
 function prompt
 {
