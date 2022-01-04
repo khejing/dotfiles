@@ -6,6 +6,14 @@ function git-diff-remote {gd origin/master}
 Set-Alias gitdr git-diff-remote
 function git-diff-cache {git diff --cached}
 Set-Alias gdca git-diff-cache
+function git-stash {git stash push}
+Set-Alias gsta git-stash
+function git-stash-untracked {git stash --include-untracked}
+Set-Alias gstu git-stash-untracked
+function git-stash-list {git stash list}
+Set-Alias gstl git-stash-list
+function git-stash-pop {git stash pop}
+Set-Alias gstp git-stash-pop
 function git-add-interactive {git add -p}
 Set-Alias gapa git-add-interactive
 function git-add {git add $args}
