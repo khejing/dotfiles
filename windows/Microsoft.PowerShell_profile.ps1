@@ -26,7 +26,7 @@ function git-commit {git commit -m $args}
 Set-Alias gcmsg git-commit
 function git-add-commit {git commit -am $args}
 Set-Alias gcam git-add-commit
-function git-history {git log --pretty=format:"%C(auto)%h %ad | %C(auto)%s%d" --date=format:"%y-%m-%d %R" $args}
+function git-history {git log --pretty=format:"%C(auto)%h %ad | %<(8,trunc)%an | %C(auto)%s%d" --date=format:"%y-%m-%d %R" $args}
 Set-Alias gh git-history
 function git-history-remote {gh origin/master}
 Set-Alias ghr git-history-remote
