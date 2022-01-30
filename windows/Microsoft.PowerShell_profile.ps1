@@ -10,7 +10,7 @@ function git-stash {git stash push}
 Set-Alias gsta git-stash
 function git-stash-untracked {git stash --include-untracked}
 Set-Alias gstu git-stash-untracked
-function git-stash-list {git stash list}
+function git-stash-list {git stash list $args}
 Set-Alias gstl git-stash-list
 function git-stash-pop {git stash pop}
 Set-Alias gstp git-stash-pop
