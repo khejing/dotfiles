@@ -12,7 +12,7 @@ function git-stash-untracked {git stash --include-untracked}
 Set-Alias gstu git-stash-untracked
 function git-stash-list {git stash list $args}
 Set-Alias gstl git-stash-list
-function git-stash-pop {git stash pop}
+function git-stash-pop {git stash pop $args}
 Set-Alias gstp git-stash-pop
 function git-add-interactive {git add -p}
 Set-Alias gapa git-add-interactive
