@@ -1,7 +1,40 @@
+" DroidVim default settings
+" You can change Vim settings by editing this file.
+" You can use a plugin or color scheme by copying the files to the user runtime directory ($HOME/.vim).
+" See "Long press menu" > "Help" > "Vimfiles".
+
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+
+scriptencoding utf-8
+
+set fileformats=unix,dos,mac
+
+set hidden
+set nowritebackup
+set nobackup
+
+set virtualedit=block
+set whichwrap=b,s,[,],<,>
+
+set autoindent
+set smartindent
+set ignorecase
+set smartcase
+set formatoptions+=mMj
+
+set number
+set omnifunc=syntaxcomplete#Complete
+
+set noerrorbells
+set novisualbell
+set visualbell t_vb=
+set noshowcmd
+set notitle
+
 au BufRead,BufNewFile *.txt set filetype=tex inde=
 set nonumber
 set noswapfile
-set ignorecase smartcase
 set hlsearch
 set laststatus=2
 nmap 存 :w<CR>:wviminfo<CR>
@@ -15,3 +48,41 @@ map F, F，
 map f, f，
 map j gj
 map k gk
+
+" We recommend to display tab and trailing whitespace.
+" set list
+" set listchars=tab:^\ ,trail:~
+
+" ================
+" Appendix
+" ================
+" Help:
+" Type `K` to see the help for the option under the cursor. (`:q` to close help)
+"
+" Text Input Mode:
+" (Especially important for non-English languages.)
+" If you want to use a language other than English in Insert mode, please refer to the "DroidVim help" -> "Text input mode".
+"
+" Colorscheme:
+" You can use a 256 terminal color scheme (e.g. term256).
+" :colorscheme term256
+
+" Startup:
+" When you start Vim, you may want to always edit the file in a specific directory.
+" In that case, add the following to .vimrc
+"   cd /path/to/directory
+"
+" Storage:
+" The directories that Vim can directly access on Android 11 or later are as follows:
+"  - $HOME (Home directory).
+" !!! directory will be removed on uninstall. !!!
+" To avoid losing your files, backup regularly.
+"
+" File manager:
+" By default "File manager" ignores dot files in the root of $HOME. (For security reasons)
+" If you need access to .vimrc or .vim, temporarily enable the following option.
+"   - "Preferences > Drawer & External Apps > Show dot files"
+" Backup/Restore $HOME:
+"   - "Drawer menu > Storage > Backup/Restore"
+
+
