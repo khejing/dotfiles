@@ -14,6 +14,7 @@ au TerminalOpen * call term_sendkeys('', "cd D:\Documents\<CR>")
 set ignorecase smartcase
 unmap <C-F>
 unmap <C-Y>
+map ÷ <C-W>
 map ： :
 map ？ ?
 map 、 /
@@ -23,6 +24,7 @@ map F, F，
 map f, f，
 map j gj
 map k gk
+tmap ÷ <C-W>
 tmap <C-V> <C-W>"*
 tmap <C-Y> <C-W>""
 command PowerShellTerm :term powershell.exe
