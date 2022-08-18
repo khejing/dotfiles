@@ -34,7 +34,6 @@ set notitle
 
 au BufRead,BufNewFile *.txt set filetype=tex inde=
 set nonumber
-set noswapfile
 set hlsearch
 set laststatus=2
 nmap 存 :w<CR>:wviminfo<CR>
