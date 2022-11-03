@@ -52,6 +52,10 @@ function git-rebase-abort {git rebase --abort}
 Set-Alias grba git-rebase-abort
 function git-rebase-continue {git rebase --continue}
 Set-Alias grbc git-rebase-continue
+function git-checkout {git checkout $args}
+Set-Alias gco git-checkout
+function git-checkout-create {git checkout -b $args}
+Set-Alias gcb git-checkout-create
 function prompt
 {
     Write-Host ("PS "+$pwd+" | "+$(get-date)+">") -nonewline
