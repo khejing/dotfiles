@@ -1,0 +1,77 @@
+{
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "explorer.autoReveal": false,
+    "vim.handleKeys": {
+        "<C-x>": false,
+        "<C-v>": false,
+        "<C-w>": false
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["u"],
+            "commands": ["undo"]
+        },
+        {
+            "before": ["<C-r>"],
+            "commands": ["redo"]
+        } 
+    ],
+    "vim.vimrc.path": "~/.vscodevimrc",
+    "vim.vimrc.enable": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 120,
+    "prettier.semi": false,
+    "prettier.arrowParens": "avoid",
+    "vetur.validation.script": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "editor.tabSize": 8,
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "settingsSync.ignoredExtensions": [
+        "ms-vscode-remote.remote-wsl"
+    ],
+    "autoimport.filesToScan": "**/*.{ts,tsx,js,vue}",
+    "autoimport.useSemiColon": false,
+    "volar.codeLens.scriptSetupTools": true,
+    "http.proxy": "http://localhost:10809",
+    "search.followSymlinks": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editor.enablePreview": false,
+    "boot-java.rewrite.reconcile": true,
+    "java.debug.settings.vmArgs": "-Dfile.encoding=utf-8",
+    "terminal.integrated.defaultProfile.linux": "",
+    "terminal.integrated.defaultProfile.windows": "PowerShell(UTF8)",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell(UTF8)": {
+            "source": "PowerShell",
+            "args": ["-noexit", "chcp 65001"]
+        }
+    },
+    "editor.accessibilitySupport": "off",
+    "maven.executable.path": "D:\\Deploymets\\apache-maven-3.8.4\\bin\\mvn.cmd"
+}
