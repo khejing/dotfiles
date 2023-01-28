@@ -8,6 +8,8 @@
 255.255.255.255	broadcasthost
 ::1             localhost
 
+0.0.0.0 v.qq.com
+0.0.0.0 www.bilibili.com
 0.0.0.0 read.qidian.com
 0.0.0.0 www.qidian.com
 0.0.0.0 book.qidian.com
