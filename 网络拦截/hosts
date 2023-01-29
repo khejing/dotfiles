@@ -8,6 +8,7 @@
 255.255.255.255	broadcasthost
 ::1             localhost
 
+0.0.0.0 pornhub.com
 0.0.0.0 www.douyin.com
 0.0.0.0 www.xiaohongshu.com
 0.0.0.0 www.iqiyi.com
@@ -123,6 +124,8 @@
 0.0.0.0 www.3qzone.com
 0.0.0.0 www.cmxsw.com
 0.0.0.0 www.77nt.com
+0.0.0.0 www.99mk.info
+0.0.0.0 www.99mk.com
 0.0.0.0 dpcq1.com
 0.0.0.0 www.kbwx.com
 0.0.0.0 www.yanmoxuan.org
@@ -146,7 +149,6 @@
 0.0.0.0 www.39shubao.com
 0.0.0.0 www.x95zw.com
 0.0.0.0 www.53yao.com
-0.0.0.0 www.99mk.info
 0.0.0.0 www.2kzw.com
 0.0.0.0 www.mxzw.com
 0.0.0.0 www.sikabeila.com
