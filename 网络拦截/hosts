@@ -8,6 +8,12 @@
 255.255.255.255	broadcasthost
 ::1             localhost
 
+0.0.0.0 www.douyin.com
+0.0.0.0 www.xiaohongshu.com
+0.0.0.0 www.iqiyi.com
+0.0.0.0 youku.com
+0.0.0.0 www.tudou.com
+0.0.0.0 www.mgtv.com
 0.0.0.0 v.qq.com
 0.0.0.0 www.bilibili.com
 0.0.0.0 read.qidian.com
