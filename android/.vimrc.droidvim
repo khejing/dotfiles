@@ -37,6 +37,8 @@ set nonumber
 set hlsearch
 set laststatus=2
 nmap 存 :w<CR>:wviminfo<CR>
+nmap 后 g,
+nmap 前 g;
 map ： :
 map ？ ?
 map ／ /
