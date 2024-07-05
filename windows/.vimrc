@@ -20,7 +20,9 @@ cnoremap <C-V> <C-R>+
 vnoremap <C-C> "+y
 vnoremap <C-X> "+ygvd
 command PowerShellTerm :term pwsh.exe
-au TermOpen * call feedkeys("icd D:\Documents\<CR>")
+if exists("g:neovide")
+    au TermOpen * call feedkeys("icd D:\Documents\<CR>")
+endif
 :tnoremap <C-W>h <C-\><C-N><C-w>h
 :tnoremap <C-W>j <C-\><C-N><C-w>j
 :tnoremap <C-W>k <C-\><C-N><C-w>k
