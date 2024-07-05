@@ -19,7 +19,7 @@ inoremap <C-V> <C-R>+
 cnoremap <C-V> <C-R>+
 vnoremap <C-C> "+y
 vnoremap <C-X> "+ygvd
-command PowerShellTerm :term powershell.exe
+command PowerShellTerm :term pwsh.exe
 au TermOpen * call feedkeys("icd D:\Documents\<CR>")
 :tnoremap <C-W>h <C-\><C-N><C-w>h
 :tnoremap <C-W>j <C-\><C-N><C-w>j
