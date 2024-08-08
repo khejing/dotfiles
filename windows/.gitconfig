@@ -11,6 +11,7 @@
 	diffFilter = delta --color-only
 [delta]
 	navigate = true
+	max-line-length = 0
 [merge]
 	conflictstyle = diff3
 [diff]
