@@ -17,6 +17,8 @@ map k gk
 map r. r。
 map r, r，
 map r\ r、
+map r: r：
+map r? r？
 map rna r他
 map rnv r她
 au InsertEnter * silent !im-select.exe 2052
