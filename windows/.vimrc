@@ -3,6 +3,7 @@ set bdir=~/.vimbackupdir
 set undofile
 set undodir=~/.vimundodir
 colorscheme desert
+set guifont=Consolas:h12
 au BufRead,BufNewFile *.txt* set filetype=tex inde=
 set ignorecase smartcase
 map ： :
