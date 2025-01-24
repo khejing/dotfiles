@@ -2,7 +2,14 @@
 	email = khejing3@aliyun.com
 	name = Will Lee
 [core]
-	pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = delta
 	quotePath = false
 [interactive]
-	diffFilter = diff-so-fancy --patch
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	max-line-length = 0
+[merge]
+	conflictstyle = zdiff3
+[safe]
+	directory = *

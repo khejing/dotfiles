@@ -145,5 +145,4 @@ alias gh='git log --pretty=format:"%C(auto)%h %ad | %C(auto)%s%d" --date=format:
 alias ghr='gh origin/master'
 alias gdr='gd origin/master'
 PS1='[\w \A]\$ '
-export PATH=$PATH:/data/data/com.termux/files/home/diff-so-fancy
-cd ~/storage/shared/MyDocuments
+cd ~/storage/shared/Download/MyDocuments
