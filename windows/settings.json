@@ -57,21 +57,13 @@
     "autoimport.filesToScan": "**/*.{ts,tsx,js,vue}",
     "autoimport.useSemiColon": false,
     "volar.codeLens.scriptSetupTools": true,
-    "http.proxy": "http://localhost:10809",
     "search.followSymlinks": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "security.workspace.trust.untrustedFiles": "open",
-    "workbench.editor.enablePreview": false,
     "boot-java.rewrite.reconcile": true,
     "java.debug.settings.vmArgs": "-Dfile.encoding=utf-8",
-    "terminal.integrated.defaultProfile.linux": "",
-    "terminal.integrated.defaultProfile.windows": "PowerShell(UTF8)",
-    "terminal.integrated.profiles.windows": {
-        "PowerShell(UTF8)": {
-            "source": "PowerShell",
-            "args": ["-noexit", "chcp 65001"]
-        }
-    },
     "editor.accessibilitySupport": "off",
-    "maven.executable.path": "D:\\Deploymets\\apache-maven-3.8.4\\bin\\mvn.cmd"
+    "maven.executable.path": "D:\\Deploymets\\apache-maven-3.8.4\\bin\\mvn.cmd",
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.scrollback": 100000
 }
