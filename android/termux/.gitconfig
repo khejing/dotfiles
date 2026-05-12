@@ -6,9 +6,12 @@
 	quotePath = false
 [interactive]
 	diffFilter = delta --color-only
+[include]
+	path = storage/downloads/dotfiles/android/termux/themes.gitconfig
 [delta]
 	navigate = true
 	max-line-length = 0
+	features = villsau
 [merge]
 	conflictstyle = zdiff3
 [safe]
